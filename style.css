@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.hero-secondary, li, .signup{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.start-1, .footer {
+    background-color: #1F2937;
+}
+
+.start-1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.start-2{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.intro {
+    margin-bottom: 64px;
+    display: flex;
+}
+
+.text {
+    flex: 1;
+    flex-wrap: wrap;
+    padding-right: 16px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    margin-top: 8px;
+}
+
+.image {
+    flex: 1;
+    background-color: lightslategray;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+
+.footer {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}

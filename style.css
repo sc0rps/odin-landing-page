@@ -28,21 +28,8 @@ a {
 }
 
 
-.start-1, .footer {
-    background-color: #1F2937;
-}
 
-.start-1 {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 32px;
-}
 
-.start-2{
-    flex-basis: 70%;
-    display: flex;
-    flex-direction: column;
-}
 
 .header {
     display: flex;
@@ -62,10 +49,28 @@ a {
     display: flex;
 }
 
+
+.start-1, .footer {
+    background-color: #1F2937;
+}
+
+.start-1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.start-2{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .text {
     flex: 1;
     flex-wrap: wrap;
-    padding-right: 16px;
+    padding-right: 32px;
 }
 
 .signup {
@@ -87,9 +92,52 @@ a {
     align-items: center;
 }
 
-.links {
+.info-1 {
     display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 64px;
 }
+
+.info-2 {
+    flex-basis: 60%;
+}
+
+.info-heading {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 32px;
+}
+
+.info-containers {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.info-box {
+    align-self: center;
+    width: 100%;
+    padding-bottom: 100%;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.info-subtext {
+    color: grey;
+    padding: 8px 0px;
+}
+
+
+
+
 
 
 .footer {

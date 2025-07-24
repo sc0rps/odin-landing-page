@@ -1,3 +1,5 @@
+/*General Stuff */
+
 body {
     margin: 0;
     display: flex;
@@ -28,8 +30,7 @@ a {
 }
 
 
-
-
+/*Intro Section */
 
 .header {
     display: flex;
@@ -92,6 +93,9 @@ a {
     align-items: center;
 }
 
+
+/*Info Section */
+
 .info-1 {
     display: flex;
     justify-content: center;
@@ -136,7 +140,7 @@ a {
 }
 
 
-
+/*Quote Section */
 
 .quote-1 {
     display: flex;
@@ -164,6 +168,46 @@ a {
     font-weight: bold;
 }
 
+/*Call Section */
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+
+}
+
+.call-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 80%;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call-primary {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .footer {
     height: 64px;
